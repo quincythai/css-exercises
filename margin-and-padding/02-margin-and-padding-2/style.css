@@ -7,21 +7,34 @@ body {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+
+  padding: 8px; /* Padding between content and edge */
 }
 
 .title {
   background: #e3f4ff;
+
+  font-size: 16px;
+  padding: 10px;
+  margin-top: 0px; /* h1 has default margin so we remove it */
 }
 
 .content {
   background: #e3f4ff;
+  padding: 10px;
+  margin-bottom: 10px;
 }
 
 .button-container {
   background: #e3f4ff;
+  text-align: center;
+  padding: 10px;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  display: block; /* put button on new line */
+  padding: 10px 20px; /* top right bottom left */
+  margin: auto; /* horizontal alignment */
 }
