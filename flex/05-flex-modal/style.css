@@ -67,3 +67,32 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+.modal {
+  display: flex;
+  padding: 16px;
+  gap: 16px;
+}
+
+.icon {
+  flex-shrink: 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.text {
+  margin-bottom: 16px;
+}
+
+/*
+  I learned to stop elements from getting squished in flexbox by using flex-shrink: 0
+  I can use display: flex on the modal itself, and now we can wrap the right side in a div
+  I learned to nest the X icon inside of the "Are you sure you want to do that" text, this way we can use display: flex to space between the button
+  
+*/
