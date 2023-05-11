@@ -40,3 +40,10 @@ img {
   
   max-width: 200px;
 }
+
+/*
+  I learned you can align-text within the body tag instead of adding it to title and containers individually
+  Putting max-width on a container will automatically wrap the text
+  Put wrapper around the entire content box, and then container for each picture/text object
+  
+*/
