@@ -89,3 +89,26 @@
   font-size: 13px;
   font-weight: normal;  
 }
+
+/* Begin my solution */
+li {
+  list-style: none;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  gap: 4px;
+}
+
+.header {
+  display: grid;
+  grid-column: 1 / -1;
+  grid-template-columns: 1fr 4fr;
+  align-items: center;
+}
+
+ul { /* Had to apply grid to ul, not menu. */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
