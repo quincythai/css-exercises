@@ -129,6 +129,7 @@ li {
   grid-template-columns: repeat(3, 1fr);
 }
 
+/* auto-fit: returns highest int that doesn't overflow the grid, as it calculates in realtime; item scales to fit entire container, whereas auto-fill makes items stay at min size and preceding ones snap into place*/
 .article {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
